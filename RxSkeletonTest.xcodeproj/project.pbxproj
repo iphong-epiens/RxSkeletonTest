@@ -13,8 +13,8 @@
 		2E9A9EBE2754604F008CBE63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A9EBC2754604F008CBE63 /* Main.storyboard */; };
 		2E9A9EC027546050008CBE63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A9EBF27546050008CBE63 /* Assets.xcassets */; };
 		2E9A9EC327546050008CBE63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A9EC127546050008CBE63 /* LaunchScreen.storyboard */; };
-		2E9A9ECE27547569008CBE63 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A9ECC27547569008CBE63 /* UserTableViewCell.swift */; };
-		2E9A9ECF27547569008CBE63 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A9ECD27547569008CBE63 /* UserTableViewCell.xib */; };
+		2E9A9ECE27547569008CBE63 /* UsernameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A9ECC27547569008CBE63 /* UsernameTableViewCell.swift */; };
+		2E9A9ECF27547569008CBE63 /* UsernameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A9ECD27547569008CBE63 /* UsernameTableViewCell.xib */; };
 		E8052DF00D62A523EE0429AE /* Pods_RxSkeletonTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 083A4C3853A3C9544C1F4C44 /* Pods_RxSkeletonTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +29,8 @@
 		2E9A9EBF27546050008CBE63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E9A9EC227546050008CBE63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E9A9EC427546050008CBE63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E9A9ECC27547569008CBE63 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
-		2E9A9ECD27547569008CBE63 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		2E9A9ECC27547569008CBE63 /* UsernameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameTableViewCell.swift; sourceTree = "<group>"; };
+		2E9A9ECD27547569008CBE63 /* UsernameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsernameTableViewCell.xib; sourceTree = "<group>"; };
 		3A1C20256ACDE45360B2F29D /* Pods-RxSkeletonTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSkeletonTest.release.xcconfig"; path = "Target Support Files/Pods-RxSkeletonTest/Pods-RxSkeletonTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,8 +74,8 @@
 				2E9A9EBF27546050008CBE63 /* Assets.xcassets */,
 				2E9A9EC127546050008CBE63 /* LaunchScreen.storyboard */,
 				2E9A9EC427546050008CBE63 /* Info.plist */,
-				2E9A9ECC27547569008CBE63 /* UserTableViewCell.swift */,
-				2E9A9ECD27547569008CBE63 /* UserTableViewCell.xib */,
+				2E9A9ECC27547569008CBE63 /* UsernameTableViewCell.swift */,
+				2E9A9ECD27547569008CBE63 /* UsernameTableViewCell.xib */,
 			);
 			path = RxSkeletonTest;
 			sourceTree = "<group>";
@@ -157,7 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E9A9ECF27547569008CBE63 /* UserTableViewCell.xib in Resources */,
+				2E9A9ECF27547569008CBE63 /* UsernameTableViewCell.xib in Resources */,
 				2E9A9EC327546050008CBE63 /* LaunchScreen.storyboard in Resources */,
 				2E9A9EC027546050008CBE63 /* Assets.xcassets in Resources */,
 				2E9A9EBE2754604F008CBE63 /* Main.storyboard in Resources */,
@@ -213,7 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E9A9ECE27547569008CBE63 /* UserTableViewCell.swift in Sources */,
+				2E9A9ECE27547569008CBE63 /* UsernameTableViewCell.swift in Sources */,
 				2E9A9EBB2754604F008CBE63 /* ViewController.swift in Sources */,
 				2E9A9EB72754604F008CBE63 /* AppDelegate.swift in Sources */,
 				2E9A9EB92754604F008CBE63 /* SceneDelegate.swift in Sources */,

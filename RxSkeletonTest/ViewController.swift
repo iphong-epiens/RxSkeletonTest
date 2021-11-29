@@ -30,10 +30,10 @@ class ViewController: UIViewController {
     private let dataSource = RxTableViewSectionedReloadDataSource<Section>(configureCell: { _, tableView, indexPath, row -> UITableViewCell in
         switch row {
         case .skeleton:
-            return UserTableViewCell.configure(tableView: tableView, indexPath: indexPath, username: "")
+            return UsernameTableViewCell.configure(tableView: tableView, indexPath: indexPath, username: "")
             
         case .username(let username):
-            return UserTableViewCell.configure(tableView: tableView, indexPath: indexPath, username: username)
+            return UsernameTableViewCell.configure(tableView: tableView, indexPath: indexPath, username: username)
         }
     })
     
@@ -52,7 +52,7 @@ class ViewController: UIViewController {
         
         self.tableView.delegate = self
         
-        let nib = UINib(nibName: "UserTableViewCell", bundle: nil)
+        let nib = UINib(nibName: "UsernameTableViewCell", bundle: nil)
         self.tableView.register(nib, forCellReuseIdentifier: "UsernameTableViewCell")
         
         Observable.merge(dataSources.asObservable())

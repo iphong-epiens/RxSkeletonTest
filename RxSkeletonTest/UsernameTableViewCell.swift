@@ -1,5 +1,5 @@
 //
-//  UserTableViewCell.swift
+//  UsernameTableViewCell.swift
 //  RxSkeletonTest
 //
 //  Created by Inpyo Hong on 2021/11/29.
@@ -8,7 +8,7 @@
 import UIKit
 import SkeletonView
 
-class UserTableViewCell: UITableViewCell {
+class UsernameTableViewCell: UITableViewCell {
     @IBOutlet weak var imgView: UIImageView!
     @IBOutlet weak var usernameLabel: UILabel!
     
@@ -24,7 +24,7 @@ class UserTableViewCell: UITableViewCell {
     
     static func configure(tableView: UITableView, indexPath: IndexPath, username: String) -> UITableViewCell {
         print(#function, username)
-        let cell = tableView.dequeueReusableCell(withIdentifier: "UsernameTableViewCell", for: indexPath) as! UserTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "UsernameTableViewCell", for: indexPath) as! UsernameTableViewCell
         cell.usernameLabel.text = username
         cell.imgView.layer.cornerRadius = cell.imgView.bounds.width/2
         return cell
